@@ -49,12 +49,12 @@
         font-weight: $bold-font-weight;
         text-transform: uppercase;
         color: $blue;
-        font-size: $h1-font-size;
+        font-size: 27px !important;
         font-weight: 900;
         font-family: "Amazon Ember",Arial,sans-serif;
 
         @media (max-width: $small-screen) {
-          font-size: $h4-font-size;
+              font-size: 17px !important;
         }
 
         @media (min-width: $small-screen) and (max-width: $medium-screen) {
